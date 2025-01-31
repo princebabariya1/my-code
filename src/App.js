@@ -157,6 +157,7 @@ const ParallaxVideo = () => {
             visibility: sectionOneOpacity > 0 ? "visible" : "hidden",
           }}
         >
+          
           <p
             class="subheader md:text-36 font-light"
             style={{
