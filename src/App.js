@@ -5,7 +5,6 @@ import useWindowSize from "./hooks/useWindowSize";
 const ParallaxVideo = () => {
   const videoContainerRef = useRef(null);
   const videoRef = useRef(null);
-  
 
   const [currentVideo, setCurrentVideo] = useState("/sectionfour-video.mp4");
   const [textVisible, setTextVisible] = useState(true);
